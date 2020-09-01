@@ -1,10 +1,13 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import HomeStack from './routes/HomeStack';
+import {NavigationContainer} from '@react-navigation/native';
+import {StatusBar} from 'react-native';
 
-export default function Home(props: any) {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text style={{fontFamily: 'Montserrat-Italic'}}>Hi Kunal</Text>
-    </View>
-  );
+export default function ProjectGutenberg(props: any) {
+    return (
+        <NavigationContainer>
+            <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+            <HomeStack></HomeStack>
+        </NavigationContainer>
+    );
 }
