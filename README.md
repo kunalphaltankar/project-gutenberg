@@ -6,7 +6,8 @@ It's made with React Native, coupled with some extra nice packages to handle rou
 
 ## Preview
 
-![project-UI](https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif)
+<!-- ![project-UI](https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif) -->
+<img src="https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif" width="480" height="640"/>
 
 > Note: 1MB size GIF, might take some time to load
 
@@ -48,7 +49,7 @@ npx react-native run-android
 ```
 ### Problem setting up the environment?
 
--[React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
+- Check out [React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
 
 
 <!--
