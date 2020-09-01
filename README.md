@@ -59,7 +59,7 @@ yarn global add react-native-cli
 ```
 react-native run-android
 ```
-
+<!--
 ## Troubleshooting
 
 **Note:** Each time you pull commits from others, run the **yarn** command to install dependencies that may have been introduced.
@@ -194,3 +194,4 @@ In this project, we have decided to use **Enzyme** to test the components method
 ```
 < ComponentName >.js
 ```
+-->
