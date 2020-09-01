@@ -6,8 +6,7 @@ It's made with React Native, coupled with some extra nice packages to handle rou
 
 ## Preview
 
-<!-- ![project-UI](https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif) -->
-<img src="https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif" width="480" height="640"/>
+![project-UI](https://user-images.githubusercontent.com/56800360/91863733-0d8b5380-ec8d-11ea-809d-ecf0258feb35.gif)
 
 > Note: 1MB size GIF, might take some time to load
 
