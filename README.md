@@ -1,6 +1,6 @@
 # Context and goal
 
-I build this application using Gutenberg API (https://github.com/garethbjohnson/gutendex).
+I built this application using Gutenberg API (https://github.com/garethbjohnson/gutendex).
 
 It's made with React Native, coupled with some extra nice packages to handle routing, dataflow and UI elements.
 
