@@ -16,17 +16,9 @@ It's made with React Native, coupled with some extra nice packages to handle rou
 
 > A framework for building native apps with React.
 
-- [Redux](http://redux.js.org/)
+- [React Navigation](https://reactnavigation.org/docs/getting-started)
 
-> Redux is a predictable state container for JavaScript apps.
-
-- [React Native Elements](https://github.com/react-native-community/react-native-elements)
-
-> Cross Platform React Native UI Toolkit
-
-- [React Native Router Flux](https://github.com/aksonov/react-native-router-flux)
-
-> React Native Router based on new React Native Navigation API
+> React Navigation used to navigate among screens.
 
 ## Running the project
 
@@ -40,13 +32,8 @@ git clone < project-url.git >
 - [Install yarn](https://yarnpkg.com/en/docs/install) on your computer
 > Yarn is a dependency manager built by facebook and google. It is a more efficient and reliable (thanks to yarn.lock) alternative of npm.
 
-- Launch ``` yarn ``` command in a terminal opened in the project folder.
+- Launch ``` npm install``` command in a terminal opened in the project folder.
 > This command will look into the *package.json* file and install all the dependencies listed here.
-
-- Install react-native-cli globally on your computer
-```
-yarn global add react-native-cli
-```
 
 ### Android steps
 
@@ -57,8 +44,13 @@ yarn global add react-native-cli
 - Then, run the project in executing on your project folder:
 
 ```
-react-native run-android
+npx react-native run-android
 ```
+### Problem setting up the environment?
+
+-[React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
+
+
 <!--
 ## Troubleshooting
 
