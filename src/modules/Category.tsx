@@ -160,9 +160,10 @@ export default class Catagory extends React.Component {
                             />
                         );
                     }}
-					onEndReachedThreshold={0.2}
-					//  I couldn't figure out infinite FlatList, yet. :(
+                    onEndReachedThreshold={0.5}
+                    //  I couldn't figure out infinite FlatList, yet. :(
                     onEndReached={({distanceFromEnd}) => {
+                        if (distanceFromEnd < 100) return;
                         console.log('====================================');
                         console.log(
                             this.state.booksResponse.next,
@@ -178,19 +179,19 @@ export default class Catagory extends React.Component {
                                 .then((res) => res.json())
                                 .then((data) => {
                                     console.log(data);
-                                    // const booksList = this.state.booksList.filter(
-                                    //     (item) => true,
-                                    // );//filter is to deep copy an array
-                                    // booksList.push(data.results);
+                                    const booksList = [
+                                        ...this.state.booksList,
+                                        ...data.results,
+                                    ];
 
-                                    const booksList = data.results;
-                                    (this
-                                        ._flatListRef as FlatList).scrollToOffset(
-                                        {
-                                            animated: true,
-                                            offset: 1,
-                                        },
-                                    );
+                                    // const booksList = data.results;
+                                    // (this
+                                    //     ._flatListRef as FlatList).scrollToOffset(
+                                    //     {
+                                    //         animated: true,
+                                    //         offset: 1,
+                                    //     },
+                                    // );
                                     this.setState({
                                         booksList,
                                         booksResponse: data,
